@@ -1,0 +1,117 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module asposecloud.common</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="index.html"><font color="#ffffff">asposecloud</font></a>.common</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/asposecloud/common.py">/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/asposecloud/common.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="hashlib.html">hashlib</a><br>
+<a href="hmac.html">hmac</a><br>
+</td><td width="25%" valign=top><a href="json.html">json</a><br>
+<a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="re.html">re</a><br>
+<a href="requests.html">requests</a><br>
+</td><td width="25%" valign=top><a href="string.html">string</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="asposecloud.common.html#Utils">Utils</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Utils">class <strong>Utils</strong></a></font></td></tr>
+
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>A&nbsp;common&nbsp;collection&nbsp;of&nbsp;utility&nbsp;function&nbsp;to&nbsp;perform&nbsp;various&nbsp;tasks.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Utils-__init__"><strong>__init__</strong></a>(self)</dt></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="Utils-append_storage"><strong>append_storage</strong></a>(uri, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=''</font>)</dt><dd><tt>Utility&nbsp;function&nbsp;to&nbsp;help&nbsp;append&nbsp;storage&nbsp;parameters&nbsp;in&nbsp;URI<br>
+&nbsp;<br>
+:param&nbsp;uri:<br>
+:param&nbsp;remote_folder:<br>
+:param&nbsp;storage_type:<br>
+:param&nbsp;storage_name:<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Utils-build_uri"><strong>build_uri</strong></a>(path, qry_data<font color="#909090">=None</font>)</dt><dd><tt>URI&nbsp;Builder&nbsp;-&nbsp;Accept&nbsp;path&nbsp;and&nbsp;query&nbsp;string&nbsp;to&nbsp;generate&nbsp;a&nbsp;URI.<br>
+&nbsp;<br>
+:param&nbsp;path:&nbsp;e.g&nbsp;<a href="http://api.aspose.com/v1/testurl">http://api.aspose.com/v1/testurl</a><br>
+:param&nbsp;qry_data:&nbsp;a&nbsp;dictionary&nbsp;which&nbsp;holds&nbsp;query&nbsp;string&nbsp;data&nbsp;e.g&nbsp;{'param1':&nbsp;'value1',&nbsp;'param2':&nbsp;'value2'}<br>
+:return:&nbsp;returns&nbsp;a&nbsp;uri&nbsp;with&nbsp;query&nbsp;string&nbsp;e.g&nbsp;<a href="http://api.aspose.com/v1/testurl?param1=value1&amp;param2=value2">http://api.aspose.com/v1/testurl?param1=value1&amp;param2=value2</a></tt></dd></dl>
+
+<dl><dt><a name="Utils-download_file"><strong>download_file</strong></a>(remote_filename, output_filename, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Download&nbsp;a&nbsp;file&nbsp;from&nbsp;remote&nbsp;storage&nbsp;and&nbsp;save&nbsp;it&nbsp;on&nbsp;local&nbsp;storage.<br>
+&nbsp;<br>
+:param&nbsp;remote_filename:&nbsp;filename&nbsp;on&nbsp;remote&nbsp;storage<br>
+:param&nbsp;output_filename:&nbsp;filename&nbsp;along&nbsp;with&nbsp;path&nbsp;to&nbsp;store&nbsp;on&nbsp;local&nbsp;storage<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;output&nbsp;location&nbsp;of&nbsp;the&nbsp;downloaded&nbsp;file</tt></dd></dl>
+
+<dl><dt><a name="Utils-get_filename"><strong>get_filename</strong></a>(filename)</dt><dd><tt>Extract&nbsp;filename&nbsp;without&nbsp;extension<br>
+&nbsp;<br>
+:param&nbsp;filename:<br>
+:return:&nbsp;filename&nbsp;without&nbsp;extension</tt></dd></dl>
+
+<dl><dt><a name="Utils-save_file"><strong>save_file</strong></a>(response_stream, filename)</dt><dd><tt>Save&nbsp;a&nbsp;response&nbsp;stream&nbsp;as&nbsp;local&nbsp;file<br>
+&nbsp;<br>
+:param&nbsp;response_stream:&nbsp;File&nbsp;Stream<br>
+:param&nbsp;filename:&nbsp;File&nbsp;name&nbsp;along&nbsp;with&nbsp;path&nbsp;to&nbsp;store<br>
+:return:&nbsp;returns&nbsp;full&nbsp;path&nbsp;of&nbsp;newly&nbsp;created&nbsp;file</tt></dd></dl>
+
+<dl><dt><a name="Utils-sign"><strong>sign</strong></a>(url_to_sign)</dt><dd><tt>Add&nbsp;Signature&nbsp;to&nbsp;the&nbsp;url&nbsp;for&nbsp;authentication.<br>
+&nbsp;<br>
+:param&nbsp;url_to_sign:<br>
+:return:&nbsp;Returns&nbsp;Signed&nbsp;URL</tt></dd></dl>
+
+<dl><dt><a name="Utils-upload_file_binary"><strong>upload_file_binary</strong></a>(local_file, uri)</dt><dd><tt>Upload&nbsp;a&nbsp;local&nbsp;file&nbsp;to&nbsp;provided&nbsp;url<br>
+&nbsp;<br>
+:param&nbsp;local_file:&nbsp;path/to/local/file&nbsp;on&nbsp;your&nbsp;local&nbsp;machine<br>
+:param&nbsp;uri:&nbsp;target&nbsp;uri&nbsp;to&nbsp;upload&nbsp;file<br>
+:return:&nbsp;Response&nbsp;object</tt></dd></dl>
+
+<dl><dt><a name="Utils-validate_result"><strong>validate_result</strong></a>(result)</dt><dd><tt>Validates&nbsp;if&nbsp;an&nbsp;API&nbsp;call&nbsp;have&nbsp;any&nbsp;error&nbsp;in&nbsp;the&nbsp;body.<br>
+&nbsp;<br>
+:param&nbsp;result:&nbsp;body&nbsp;of&nbsp;the&nbsp;response<br>
+:return:&nbsp;True&nbsp;or&nbsp;False</tt></dd></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__author__</strong> = 'AssadMahmood'</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">AssadMahmood</td></tr></table>
+</body></html>

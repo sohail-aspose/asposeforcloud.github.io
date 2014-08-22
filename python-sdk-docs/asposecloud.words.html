@@ -1,0 +1,224 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: package asposecloud.words</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="index.html"><font color="#ffffff">asposecloud</font></a>.words</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/asposecloud/words/__init__.py">/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/asposecloud/words/__init__.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Package Contents</strong></big></font></td></tr>
+
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="asposecloud.words.html#Builder">Builder</a>
+</font></dt><dt><font face="helvetica, arial"><a href="asposecloud.words.html#Converter">Converter</a>
+</font></dt><dt><font face="helvetica, arial"><a href="asposecloud.words.html#Document">Document</a>
+</font></dt><dt><font face="helvetica, arial"><a href="asposecloud.words.html#Extractor">Extractor</a>
+</font></dt><dt><font face="helvetica, arial"><a href="asposecloud.words.html#MailMerge">MailMerge</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Builder">class <strong>Builder</strong></a></font></td></tr>
+
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Builder-__init__"><strong>__init__</strong></a>(self, filename)</dt></dl>
+
+<dl><dt><a name="Builder-insert_watermark_image"><strong>insert_watermark_image</strong></a>(self, image_file, angle, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;image_file:<br>
+:param&nbsp;angle:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Builder-insert_watermark_text"><strong>insert_watermark_text</strong></a>(self, text, angle, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;text:<br>
+:param&nbsp;angle:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Builder-replace_text"><strong>replace_text</strong></a>(self, old_text, new_text, match_case<font color="#909090">=False</font>, match_whole_word<font color="#909090">=False</font>, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;old_text:<br>
+:param&nbsp;new_text:<br>
+:param&nbsp;match_case:<br>
+:param&nbsp;match_whole_word:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Converter">class <strong>Converter</strong></a></font></td></tr>
+
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Converter-__init__"><strong>__init__</strong></a>(self, filename)</dt></dl>
+
+<dl><dt><a name="Converter-convert"><strong>convert</strong></a>(self, save_format, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;save_format:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="Converter-convert_local_file"><strong>convert_local_file</strong></a>(input_file, save_format)</dt><dd><tt>:param&nbsp;input_file:<br>
+:param&nbsp;save_format:<br>
+:return:</tt></dd></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Document">class <strong>Document</strong></a></font></td></tr>
+
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Document-__init__"><strong>__init__</strong></a>(self, filename)</dt></dl>
+
+<dl><dt><a name="Document-append_document"><strong>append_document</strong></a>(self, doc_list, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;doc_list:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Document-delete_property"><strong>delete_property</strong></a>(self, property_name, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;property_name:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Document-get_document_info"><strong>get_document_info</strong></a>(self, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Document-get_properties"><strong>get_properties</strong></a>(self, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Document-get_property"><strong>get_property</strong></a>(self, property_name, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;property_name:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Document-set_property"><strong>set_property</strong></a>(self, property_name, property_value, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;property_name:<br>
+:param&nbsp;property_value:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Extractor">class <strong>Extractor</strong></a></font></td></tr>
+
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Extractor-__init__"><strong>__init__</strong></a>(self, filename)</dt></dl>
+
+<dl><dt><a name="Extractor-convert_drawing_object"><strong>convert_drawing_object</strong></a>(self, object_index, render_format, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;object_index:<br>
+:param&nbsp;render_format:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Extractor-get_drawing_object_list"><strong>get_drawing_object_list</strong></a>(self, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Extractor-get_image_data"><strong>get_image_data</strong></a>(self, image_index, image_format, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;image_index:<br>
+:param&nbsp;image_format:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Extractor-get_ole_data"><strong>get_ole_data</strong></a>(self, ole_index, ole_format, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;ole_index:<br>
+:param&nbsp;ole_format:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="Extractor-get_text"><strong>get_text</strong></a>(self, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="Extractor-get_drawing_object"><strong>get_drawing_object</strong></a>(object_uri, output_path, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;object_uri:<br>
+:param&nbsp;output_path:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="MailMerge">class <strong>MailMerge</strong></a></font></td></tr>
+
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="MailMerge-__init__"><strong>__init__</strong></a>(self, filename)</dt></dl>
+
+<dl><dt><a name="MailMerge-execute"><strong>execute</strong></a>(self, str_xml, with_regions<font color="#909090">=False</font>, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;str_xml:<br>
+:param&nbsp;with_regions:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+<dl><dt><a name="MailMerge-execute_template"><strong>execute_template</strong></a>(self, str_xml, with_regions<font color="#909090">=False</font>, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>:param&nbsp;str_xml:<br>
+:param&nbsp;with_regions:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:</tt></dd></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__author__</strong> = 'AssadMahmood'</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">AssadMahmood</td></tr></table>
+</body></html>

@@ -1,0 +1,814 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Class: Aspose::Cloud::AsposeStorage::Folder
+  
+    &mdash; Documentation by YARD 0.8.7.4
+  
+</title>
+
+  <link rel="stylesheet" href="../../../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  hasFrames = window.top.frames.main ? true : false;
+  relpath = '../../../';
+  framesUrl = "../../../frames.html#!Aspose/Cloud/AsposeStorage/Folder.html";
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+  
+    <a href="../../../_index.html">Index (F)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../../../Aspose.html" title="Aspose (module)">Aspose</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../../Cloud.html" title="Aspose::Cloud (module)">Cloud</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../AsposeStorage.html" title="Aspose::Cloud::AsposeStorage (module)">AsposeStorage</a></span></span>
+     &raquo; 
+    <span class="title">Folder</span>
+  
+
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../../../class_list.html">
+      Class List
+    </a>
+  
+    <a class="full_list_link" id="method_list_link"
+        href="../../../method_list.html">
+      Method List
+    </a>
+  
+    <a class="full_list_link" id="file_list_link"
+        href="../../../file_list.html">
+      File List
+    </a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+
+    <iframe id="search_frame"></iframe>
+
+    <div id="content"><h1>Class: Aspose::Cloud::AsposeStorage::Folder
+  
+  
+  
+</h1>
+
+<dl class="box">
+  
+    <dt class="r1">Inherits:</dt>
+    <dd class="r1">
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">Aspose::Cloud::AsposeStorage::Folder</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+      </dd>
+    
+  
+  
+    
+  
+    
+  
+  
+  
+    <dt class="r2 last">Defined in:</dt>
+    <dd class="r2 last">lib/Storage/folder.rb</dd>
+  
+</dl>
+<div class="clear"></div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<p>This class provides functionality to manage files in a Remote Aspose Folder</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+
+
+
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#create_folder-instance_method" title="#create_folder (instance method)">- (Object) <strong>create_folder</strong>(folder_name, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#delete_file-instance_method" title="#delete_file (instance method)">- (Object) <strong>delete_file</strong>(filename, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#delete_folder-instance_method" title="#delete_folder (instance method)">- (Object) <strong>delete_folder</strong>(folder_name, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#file_exists-instance_method" title="#file_exists (instance method)">- (Object) <strong>file_exists</strong>(filename, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>check if a file exists on the storage.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_disc_usage-instance_method" title="#get_disc_usage (instance method)">- (Object) <strong>get_disc_usage</strong>(storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_file-instance_method" title="#get_file (instance method)">- (Object) <strong>get_file</strong>(file_name, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Get file from storage.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#get_files-instance_method" title="#get_files (instance method)">- (Object) <strong>get_files</strong>(remote_folder_path = &#39;&#39;, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Retrieves Files and Folder information from a remote folder.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">- (Folder) <strong>initialize</strong> </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>A new instance of Folder.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#upload_file-instance_method" title="#upload_file (instance method)">- (Object) <strong>upload_file</strong>(local_file, remote_folder = &#39;&#39;, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Uploads file from the local path to the remote folder.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    - (<tt><span class='object_link'><a href="" title="Aspose::Cloud::AsposeStorage::Folder (class)">Folder</a></span></tt>) <strong>initialize</strong> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns a new instance of Folder</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+24
+25
+26
+27
+28
+29</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 24</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span>
+  <span class='ivar'>@str_uri_folder</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Product</span><span class='period'>.</span><span class='id identifier rubyid_product_uri'>product_uri</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>/storage/folder/</span><span class='tstring_end'>&#39;</span></span>
+  <span class='ivar'>@str_uri_file</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Product</span><span class='period'>.</span><span class='id identifier rubyid_product_uri'>product_uri</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>/storage/file/</span><span class='tstring_end'>&#39;</span></span>
+  <span class='ivar'>@str_uri_exist</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Product</span><span class='period'>.</span><span class='id identifier rubyid_product_uri'>product_uri</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>/storage/exist/</span><span class='tstring_end'>&#39;</span></span>
+  <span class='ivar'>@str_uri_disc</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Product</span><span class='period'>.</span><span class='id identifier rubyid_product_uri'>product_uri</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>/storage/disc/</span><span class='tstring_end'>&#39;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="create_folder-instance_method">
+  
+    - (<tt>Object</tt>) <strong>create_folder</strong>(folder_name, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) 
+  
+
+  
+
+  
+</h3><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+85
+86
+87
+88
+89
+90
+91
+92
+93</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 85</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_create_folder'>create_folder</span> <span class='lparen'>(</span><span class='id identifier rubyid_folder_name'>folder_name</span><span class='comma'>,</span> <span class='id identifier rubyid_storage_type'>storage_type</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_name'>storage_name</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_raise'>raise</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Folder name cannot be empty</span><span class='tstring_end'>&#39;</span></span> <span class='kw'>if</span> <span class='id identifier rubyid_folder_name'>folder_name</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='ivar'>@str_uri_folder</span> <span class='op'>+</span> <span class='id identifier rubyid_folder_name'>folder_name</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='comma'>,</span><span class='id identifier rubyid_storage_type'>storage_type</span><span class='rparen'>)</span>
+
+    <span class='id identifier rubyid_signed_uri'>signed_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_sign'>sign</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='const'>RestClient</span><span class='period'>.</span><span class='id identifier rubyid_put'>put</span><span class='lparen'>(</span><span class='id identifier rubyid_signed_uri'>signed_uri</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='symbol'>:accept</span> <span class='op'>=&gt;</span> <span class='symbol'>:json</span><span class='rparen'>)</span>
+    <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_response'>response</span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Code</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span> <span class='int'>200</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="delete_file-instance_method">
+  
+    - (<tt>Object</tt>) <strong>delete_file</strong>(filename, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) 
+  
+
+  
+
+  
+</h3><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 73</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_delete_file'>delete_file</span><span class='lparen'>(</span><span class='id identifier rubyid_filename'>filename</span><span class='comma'>,</span> <span class='id identifier rubyid_storage_type'>storage_type</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_name'>storage_name</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_raise'>raise</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>File name cannot be empty</span><span class='tstring_end'>&#39;</span></span> <span class='kw'>if</span> <span class='id identifier rubyid_filename'>filename</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
+
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='ivar'>@str_uri_file</span> <span class='op'>+</span> <span class='id identifier rubyid_filename'>filename</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='comma'>,</span><span class='id identifier rubyid_storage_type'>storage_type</span><span class='rparen'>)</span>
+
+    <span class='id identifier rubyid_signed_str_uri'>signed_str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_sign'>sign</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='rparen'>)</span>
+
+    <span class='id identifier rubyid_response_stream'>response_stream</span> <span class='op'>=</span> <span class='const'>RestClient</span><span class='period'>.</span><span class='id identifier rubyid_delete'>delete</span><span class='lparen'>(</span><span class='id identifier rubyid_signed_str_uri'>signed_str_uri</span><span class='comma'>,</span> <span class='lbrace'>{</span><span class='symbol'>:accept</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>application/json</span><span class='tstring_end'>&#39;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
+    <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_response_stream'>response_stream</span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Code</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span> <span class='int'>200</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="delete_folder-instance_method">
+  
+    - (<tt>Object</tt>) <strong>delete_folder</strong>(folder_name, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) 
+  
+
+  
+
+  
+</h3><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+95
+96
+97
+98
+99
+100
+101
+102
+103</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 95</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_delete_folder'>delete_folder</span> <span class='lparen'>(</span><span class='id identifier rubyid_folder_name'>folder_name</span><span class='comma'>,</span> <span class='id identifier rubyid_storage_type'>storage_type</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_name'>storage_name</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_raise'>raise</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Folder name cannot be empty</span><span class='tstring_end'>&#39;</span></span> <span class='kw'>if</span> <span class='id identifier rubyid_folder_name'>folder_name</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='ivar'>@str_uri_folder</span> <span class='op'>+</span> <span class='id identifier rubyid_folder_name'>folder_name</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='comma'>,</span><span class='id identifier rubyid_storage_type'>storage_type</span><span class='rparen'>)</span>
+
+    <span class='id identifier rubyid_signed_uri'>signed_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_sign'>sign</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='const'>RestClient</span><span class='period'>.</span><span class='id identifier rubyid_delete'>delete</span><span class='lparen'>(</span><span class='id identifier rubyid_signed_uri'>signed_uri</span><span class='comma'>,</span> <span class='symbol'>:accept</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>application/json</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_response'>response</span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Code</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span> <span class='int'>200</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="file_exists-instance_method">
+  
+    - (<tt>Object</tt>) <strong>file_exists</strong>(filename, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>check if a file exists on the storage</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 61</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_file_exists'>file_exists</span><span class='lparen'>(</span><span class='id identifier rubyid_filename'>filename</span><span class='comma'>,</span> <span class='id identifier rubyid_storage_type'>storage_type</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_name'>storage_name</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_raise'>raise</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Filename cannot be empty</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>if</span> <span class='id identifier rubyid_filename'>filename</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
+
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='ivar'>@str_uri_exist</span> <span class='op'>+</span> <span class='id identifier rubyid_filename'>filename</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='comma'>,</span><span class='id identifier rubyid_storage_type'>storage_type</span><span class='rparen'>)</span>
+
+    <span class='id identifier rubyid_signed_str_uri'>signed_str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_sign'>sign</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='rparen'>)</span>
+
+    <span class='id identifier rubyid_response_stream'>response_stream</span> <span class='op'>=</span> <span class='const'>RestClient</span><span class='period'>.</span><span class='id identifier rubyid_get'>get</span><span class='lparen'>(</span><span class='id identifier rubyid_signed_str_uri'>signed_str_uri</span><span class='comma'>,</span> <span class='lbrace'>{</span><span class='symbol'>:accept</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>application/json</span><span class='tstring_end'>&#39;</span></span><span class='rbrace'>}</span><span class='rparen'>)</span>
+    <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_response_stream'>response_stream</span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>FileExist</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>IsExist</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_disc_usage-instance_method">
+  
+    - (<tt>Object</tt>) <strong>get_disc_usage</strong>(storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) 
+  
+
+  
+
+  
+</h3><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+105
+106
+107
+108
+109
+110
+111
+112</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 105</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_get_disc_usage'>get_disc_usage</span> <span class='lparen'>(</span><span class='id identifier rubyid_storage_type'>storage_type</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_name'>storage_name</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='ivar'>@str_uri_disc</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='comma'>,</span><span class='id identifier rubyid_storage_type'>storage_type</span><span class='rparen'>)</span>
+
+    <span class='id identifier rubyid_signed_uri'>signed_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_sign'>sign</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='const'>RestClient</span><span class='period'>.</span><span class='id identifier rubyid_get'>get</span><span class='lparen'>(</span><span class='id identifier rubyid_signed_uri'>signed_uri</span><span class='comma'>,</span> <span class='symbol'>:accept</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>application/json</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_response'>response</span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>DiscUsage</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_file-instance_method">
+  
+    - (<tt>Object</tt>) <strong>get_file</strong>(file_name, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Get file from storage</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 115</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_get_file'>get_file</span> <span class='lparen'>(</span><span class='id identifier rubyid_file_name'>file_name</span><span class='comma'>,</span> <span class='id identifier rubyid_storage_type'>storage_type</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_name'>storage_name</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_raise'>raise</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Filename cannot be empty</span><span class='tstring_end'>&#39;</span></span> <span class='kw'>if</span> <span class='id identifier rubyid_file_name'>file_name</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
+
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='ivar'>@str_uri_file</span> <span class='op'>+</span> <span class='id identifier rubyid_file_name'>file_name</span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>+=</span> <span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='rparen'>)</span> <span class='kw'>unless</span> <span class='id identifier rubyid_storage_type'>storage_type</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span>
+    <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='comma'>,</span><span class='id identifier rubyid_storage_type'>storage_type</span><span class='rparen'>)</span>
+
+    <span class='id identifier rubyid_signed_uri'>signed_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_sign'>sign</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='rparen'>)</span>
+    <span class='const'>RestClient</span><span class='period'>.</span><span class='id identifier rubyid_get'>get</span><span class='lparen'>(</span><span class='id identifier rubyid_signed_uri'>signed_uri</span><span class='comma'>,</span> <span class='symbol'>:accept</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>application/json</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="get_files-instance_method">
+  
+    - (<tt>Object</tt>) <strong>get_files</strong>(remote_folder_path = &#39;&#39;, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Retrieves Files and Folder information from a remote folder. The method
+returns an Array of AppFile objects.</p>
+<ul><li>
+<p>:remoteFolderPath represents remote folder relative to the root. Pass empty
+string for the root folder.</p>
+</li></ul>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 49</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_get_files'>get_files</span><span class='lparen'>(</span><span class='id identifier rubyid_remote_folder_path'>remote_folder_path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_type'>storage_type</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_name'>storage_name</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='ivar'>@str_uri_folder</span> <span class='op'>+</span> <span class='id identifier rubyid_remote_folder_path'>remote_folder_path</span>
+  <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='id identifier rubyid_str_uri'>str_uri</span><span class='lbracket'>[</span><span class='int'>0</span><span class='op'>..</span><span class='op'>-</span><span class='int'>2</span><span class='rbracket'>]</span> <span class='kw'>if</span> <span class='id identifier rubyid_str_uri'>str_uri</span><span class='lbracket'>[</span><span class='op'>-</span><span class='int'>1</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>/</span><span class='tstring_end'>&#39;</span></span>
+  <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='comma'>,</span><span class='id identifier rubyid_storage_type'>storage_type</span><span class='rparen'>)</span>
+
+  <span class='id identifier rubyid_signed_uri'>signed_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_sign'>sign</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='const'>RestClient</span><span class='period'>.</span><span class='id identifier rubyid_get'>get</span><span class='lparen'>(</span><span class='id identifier rubyid_signed_uri'>signed_uri</span><span class='comma'>,</span> <span class='symbol'>:accept</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>application/json</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+
+  <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_response'>response</span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Files</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="upload_file-instance_method">
+  
+    - (<tt>Object</tt>) <strong>upload_file</strong>(local_file, remote_folder = &#39;&#39;, storage_type = &#39;Aspose&#39;, storage_name = &#39;&#39;) 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Uploads file from the local path to the remote folder.</p>
+<ul><li>
+<p>:localFilePath represents full local file path and name</p>
+</li><li>
+<p>:remoteFolderPath represents remote folder relative to the root. Pass empty
+string for the root folder.</p>
+</li></ul>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Storage/folder.rb', line 34</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_upload_file'>upload_file</span><span class='lparen'>(</span><span class='id identifier rubyid_local_file'>local_file</span><span class='comma'>,</span> <span class='id identifier rubyid_remote_folder'>remote_folder</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_type'>storage_type</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Aspose</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_storage_name'>storage_name</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_raise'>raise</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Local file not specified</span><span class='tstring_end'>&#39;</span></span> <span class='kw'>if</span> <span class='id identifier rubyid_local_file'>local_file</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span>
+
+  <span class='id identifier rubyid_filename'>filename</span> <span class='op'>=</span> <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_basename'>basename</span><span class='lparen'>(</span><span class='id identifier rubyid_local_file'>local_file</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Product</span><span class='period'>.</span><span class='id identifier rubyid_product_uri'>product_uri</span> <span class='embexpr_end'>}</span><span class='tstring_content'>/storage/file/</span><span class='embexpr_beg'>#{</span> <span class='id identifier rubyid_remote_folder'>remote_folder</span> <span class='op'>+</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>/</span><span class='tstring_end'>&#39;</span></span> <span class='kw'>unless</span> <span class='id identifier rubyid_remote_folder'>remote_folder</span><span class='period'>.</span><span class='id identifier rubyid_empty?'>empty?</span> <span class='embexpr_end'>}</span><span class='embexpr_beg'>#{</span> <span class='id identifier rubyid_filename'>filename</span> <span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+  <span class='id identifier rubyid_str_uri'>str_uri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_append_storage'>append_storage</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_storage_name'>storage_name</span><span class='comma'>,</span><span class='id identifier rubyid_storage_type'>storage_type</span><span class='rparen'>)</span>
+
+  <span class='id identifier rubyid_signeduri'>signeduri</span> <span class='op'>=</span> <span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_sign'>sign</span><span class='lparen'>(</span><span class='id identifier rubyid_str_uri'>str_uri</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='const'>Aspose</span><span class='op'>::</span><span class='const'>Cloud</span><span class='op'>::</span><span class='const'>Common</span><span class='op'>::</span><span class='const'>Utils</span><span class='period'>.</span><span class='id identifier rubyid_upload_file_binary'>upload_file_binary</span><span class='lparen'>(</span><span class='id identifier rubyid_local_file'>local_file</span><span class='comma'>,</span> <span class='id identifier rubyid_signeduri'>signeduri</span><span class='rparen'>)</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_response'>response</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Status</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>OK</span><span class='tstring_end'>&#39;</span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+    <div id="footer">
+  Generated on Wed Aug 20 17:16:32 2014 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.8.7.4 (ruby-2.0.0).
+</div>
+
+  </body>
+</html>

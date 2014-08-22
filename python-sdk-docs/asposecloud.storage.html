@@ -1,0 +1,117 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module asposecloud.storage</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="index.html"><font color="#ffffff">asposecloud</font></a>.storage</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/asposecloud/storage.py">/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/asposecloud/storage.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="requests.html">requests</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="asposecloud.storage.html#Folder">Folder</a>
+</font></dt></dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Folder">class <strong>Folder</strong></a></font></td></tr>
+
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Wrapper&nbsp;class&nbsp;for&nbsp;Aspose&nbsp;for&nbsp;Cloud&nbsp;Storage&nbsp;API.<br>
+The&nbsp;Aspose&nbsp;for&nbsp;Cloud&nbsp;File&nbsp;Storage&nbsp;API&nbsp;let's&nbsp;you&nbsp;upload&nbsp;and&nbsp;download&nbsp;files&nbsp;for&nbsp;use&nbsp;with&nbsp;our&nbsp;Product&nbsp;APIs.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Folder-__init__"><strong>__init__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Folder-create_folder"><strong>create_folder</strong></a>(self, folder_name, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Create&nbsp;a&nbsp;new&nbsp;folder&nbsp;on&nbsp;specified&nbsp;storage<br>
+&nbsp;<br>
+:param&nbsp;folder_name:&nbsp;name&nbsp;of&nbsp;the&nbsp;folder&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;Ture&nbsp;or&nbsp;False</tt></dd></dl>
+
+<dl><dt><a name="Folder-delete_file"><strong>delete_file</strong></a>(self, filename, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Delete&nbsp;a&nbsp;file&nbsp;from&nbsp;specified&nbsp;storage.<br>
+&nbsp;<br>
+:param&nbsp;filename:<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;True&nbsp;or&nbsp;False</tt></dd></dl>
+
+<dl><dt><a name="Folder-delete_folder"><strong>delete_folder</strong></a>(self, folder_name, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Delete&nbsp;a&nbsp;folder&nbsp;from&nbsp;specified&nbsp;storage<br>
+&nbsp;<br>
+:param&nbsp;folder_name:&nbsp;name&nbsp;of&nbsp;the&nbsp;folder&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;True&nbsp;or&nbsp;False</tt></dd></dl>
+
+<dl><dt><a name="Folder-file_exists"><strong>file_exists</strong></a>(self, filename, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Check&nbsp;if&nbsp;a&nbsp;file&nbsp;already&nbsp;exist&nbsp;on&nbsp;specified&nbsp;storage.<br>
+&nbsp;<br>
+:param&nbsp;filename:<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;True&nbsp;or&nbsp;False</tt></dd></dl>
+
+<dl><dt><a name="Folder-get_disc_usage"><strong>get_disc_usage</strong></a>(self, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Get&nbsp;the&nbsp;disc&nbsp;usage&nbsp;details&nbsp;of&nbsp;specified&nbsp;storage<br>
+&nbsp;<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;list&nbsp;with&nbsp;disc&nbsp;usage&nbsp;details</tt></dd></dl>
+
+<dl><dt><a name="Folder-get_file"><strong>get_file</strong></a>(self, filename, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Download&nbsp;the&nbsp;file&nbsp;to&nbsp;your&nbsp;local&nbsp;storage&nbsp;from&nbsp;remote&nbsp;storage<br>
+&nbsp;<br>
+:param&nbsp;filename:<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;returns&nbsp;file&nbsp;stream</tt></dd></dl>
+
+<dl><dt><a name="Folder-get_files"><strong>get_files</strong></a>(self, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Download&nbsp;the&nbsp;file&nbsp;list&nbsp;of&nbsp;specified&nbsp;folder<br>
+&nbsp;<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;list&nbsp;of&nbsp;files</tt></dd></dl>
+
+<dl><dt><a name="Folder-upload_file"><strong>upload_file</strong></a>(self, local_file, remote_folder<font color="#909090">=''</font>, storage_type<font color="#909090">='Aspose'</font>, storage_name<font color="#909090">=None</font>)</dt><dd><tt>Upload&nbsp;a&nbsp;local&nbsp;file&nbsp;to&nbsp;cloud&nbsp;storage.<br>
+&nbsp;<br>
+:param&nbsp;local_file:<br>
+:param&nbsp;remote_folder:&nbsp;storage&nbsp;path&nbsp;to&nbsp;operate<br>
+:param&nbsp;storage_type:&nbsp;type&nbsp;of&nbsp;storage&nbsp;e.g&nbsp;Aspose,&nbsp;S3<br>
+:param&nbsp;storage_name:&nbsp;name&nbsp;of&nbsp;storage&nbsp;e.g.&nbsp;MyAmazonS3<br>
+:return:&nbsp;returns&nbsp;True&nbsp;or&nbsp;False</tt></dd></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__author__</strong> = 'AssadMahmood'</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">AssadMahmood</td></tr></table>
+</body></html>
